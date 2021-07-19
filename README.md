@@ -19,6 +19,7 @@ For example, for the File System module you should write:
 
 ```const fs = require('fs');```
 
+_See the documentation at https://nodejs.org/api/_
 
 # 3. Install Node Package Manager:
 ```$ sudo npm install -g npm```
