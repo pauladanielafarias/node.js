@@ -7,23 +7,30 @@
 
 # 2. Create a package.json file on your project folder
 
-**1.** Make sure you are located in the path of your project folder: ```$ cd /folder_path```
+#### **1.** Make sure you are located in the path of your project folder: 
 
-**2.** If you want to create this file with custom values: ```$ npm init```
+```$ cd /folder_path```
+
+#### **2.** 
+#### - If you want to create this file with custom values: 
+
+```$ npm init```
 
 The CLI utility will walk you through creating the ```package.json``` file. It only covers the most common items, and tries to guess sensible defaults.
 Then the ```package.json``` file will be created ‘automatically’ in your folder with the values you provided. You can change them later by editing the file.
 
-**_or_**
+#### - If you want to create this file with default values: 
 
-**2.** If you want to create this file with default values: ```$ npm init -y```
+```$ npm init -y```
 
 The ```package.json``` file will be created ‘automatically’ in your folder with those default values. You can change them later by editing the file.
 
+---
 
 #### Note: 
 In the ```package.json``` file you will see all the dependencies (libraries) that you install in that project, under the key ```"dependencies"```.
 
+---
 
 # 3. Using Node.js modules
 
@@ -70,6 +77,8 @@ _or_
 
 _* Replace ```pkg-name``` with the name of the package and ```version``` by the version number you want to install (ex: 1.0.0)._
 
+---
+
 #### Note: 
 - The first time a pkg is installed, the following files are created 'automatically': 
   - a ```package-lock.json``` file
@@ -79,6 +88,7 @@ _* Replace ```pkg-name``` with the name of the package and ```version``` by the 
 
 - The ```package-lock.json``` and ```.package-lock.json``` files, include all the details about every dependency you have installed in your project. The ```package.json file``` only contains the names and versions of the ones you install from the CLI.
 
+---
 
 # 5a. Installing a package for development use only
 
@@ -90,9 +100,12 @@ _or_
 
 _* Replace ```pkg-name``` with the name of the package._
 
+---
+
 #### Note:
 In the ```package.json``` file you will see all the dependencies (libraries) that you installed in that project for development only, under the key ```"devDependencies"```.
 
+---
 
 # 5b. Installing all packages from an existing package.json file
 
@@ -123,9 +136,12 @@ _or_
 
 _* Replace ```pkg-name``` with the name of the package._
 
+---
 
 #### Note: 
 Every time a pkg is uninstalled, the dependency on the ```package.json``` file and the ```package-lock.json``` file will be removed.
+
+---
 
 # 5d. List the packages that are installed
 
