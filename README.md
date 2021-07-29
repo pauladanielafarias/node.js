@@ -2,25 +2,25 @@
 
 1. Download Node.js at https://nodejs.org/
 
-2. Check the version of node you have installed:
-
-```$ node -v```
+2. Check the version of node you have installed: ```$ node -v```
 
 
-# 2. Create the package.json file inside your project folder (from the CLI).
+# 2. Create a package.json file on your project folder
 
-```$ npm init```
+1. Make sure you are located in the path of your project folder: ```$ cd /folder_path```
 
-The CLI utility will walk you through creating a package.json file. It only covers the most common items, and tries to guess sensible defaults.
-Then the package.json file is created ‘automatically’ in your folder with the values you provided.
+2. If you want to create this file with custom values: ```$ npm init```
+
+The CLI utility will walk you through creating the ```package.json``` file. It only covers the most common items, and tries to guess sensible defaults.
+Then the ```package.json``` file will be created ‘automatically’ in your folder with the values you provided. You can change them later by editing the file.
 
 or
 
-```$ npm init -y```
+2. If you want to create this file with default values: ```$ npm init -y```
 
-The package.json file is created with the values of your app that the CLI utility ‘considers’ by default, Then the package.json file is created ‘automatically’ in your folder with those default values.
+The ```package.json``` file will be created ‘automatically’ in your folder with those default values. You can change them later by editing the file.
 
-_In the package.json file you will see all the dependencies (libraries) that you install in that project, under the key ```"dependencies"```._
+_In the ```package.json``` file you will see all the dependencies (libraries) that you install in that project, under the key ```"dependencies"```._
 
 
 # 3. Using Node.js modules
@@ -51,7 +51,7 @@ _See the documentation at https://nodejs.org/api/_
 
 # 5. Installing a package (pkg)
 
-To install a package, you should check its official documentation but generically they are installed as follows:
+To install a package, you should check its official documentation but generically they can be installed as follows:
 
 ```$ npm i pkg-name```
 or
@@ -66,10 +66,9 @@ or
 (the chosen version of the pkg is installed)
 
 
-_* Replace ```pkg-name``` by the name of the package and ```version``` by the version number you want to install (ex: 1.0.0)._
+_* Replace ```pkg-name``` with the name of the package and ```version``` by the version number you want to install (ex: 1.0.0)._
 
-##### Note:
-The first time a pkg is installed, the following files are created 'automatically': 
+#### Note: The first time a pkg is installed, the following files are created 'automatically': 
 - a ```package-lock.json``` file
 - a folder called ```node_modules``` that will contain the packages that you install, each in its own folder (do not manipulate the packages from here, as they are volatile, always do the updates, deletions and any other modifications of the pkgs from the CLI) and also will contain a ```.package-lock.json``` file
 
@@ -113,7 +112,7 @@ or
 _* Replace ```pkg-name``` with the name of the package._
 
 
-Note: Every time a pkg is uninstalled, the dependency on the ```package.json``` file and the ```package-lock.json``` file will be removed.
+#### Note: Every time a pkg is uninstalled, the dependency on the ```package.json``` file and the ```package-lock.json``` file will be removed.
 
 # 5d. List the packages that are installed
 
