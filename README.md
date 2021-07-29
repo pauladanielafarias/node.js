@@ -115,3 +115,6 @@ _* Replace ```pkg-name``` with the name of the package._
 
 Note: Every time a pkg is uninstalled, the dependency on the ```package.json``` file and the ```package-lock.json``` file will be removed.
 
+# 5d. List the packages that are installed
+
+```$ npm ls```
