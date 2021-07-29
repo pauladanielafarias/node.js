@@ -28,7 +28,7 @@ The ```package.json``` file will be created ‘automatically’ in your folder w
 ---
 
 #### Note: 
-In the ```package.json``` file you will see all the dependencies (libraries) that you install in that project, under the key ```"dependencies"```.
+In the ```package.json``` file under the key ```"dependencies"```, you will see all the dependencies (libraries) that you install in that project.
 
 ---
 
