@@ -5,7 +5,33 @@
 2. Check the version of node you have installed: ```$ node -v```
 
 
-# 2. Create a package.json file on your project folder
+# 2. Using Node.js modules
+
+They are installed by default when Node.js is installed.
+
+To use the modules, first you have to enable them. Write on the first lines of your code:
+
+```const alias = require('moduleName')```
+
+For example, for the [File System](https://nodejs.org/docs/latest-v14.x/api/fs.html) module you should write:
+
+```const fs = require('fs');```
+
+_See the documentation at https://nodejs.org/api/_
+
+
+# 3. Installing Node Package Manager:
+
+1. Install npm
+
+```$ sudo npm install -g npm```
+ 
+2. Check the version of npm you have installed:
+
+```$ npm -v```
+
+
+# 4. Create a package.json file on your project folder
 
 #### **1.** Make sure you are located in the path of your project folder: 
 
@@ -31,32 +57,6 @@ The ```package.json``` file will be created ‘automatically’ in your folder w
 In the ```package.json``` file under the key ```"dependencies"```, you will see all the dependencies (libraries) that you install in that project.
 
 ---
-
-# 3. Using Node.js modules
-
-They are installed by default when Node.js is installed.
-
-To use the modules, first you have to enable them. Write on the first lines of your code:
-
-```const alias = require('moduleName')```
-
-For example, for the [File System](https://nodejs.org/docs/latest-v14.x/api/fs.html) module you should write:
-
-```const fs = require('fs');```
-
-_See the documentation at https://nodejs.org/api/_
-
-
-# 4. Installing Node Package Manager:
-
-1. Install npm
-
-```$ sudo npm install -g npm```
- 
-2. Check the version of npm you have installed:
-
-```$ npm -v```
-
 
 # 5. Installing a package (pkg)
 
