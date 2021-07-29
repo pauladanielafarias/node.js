@@ -62,17 +62,11 @@ _See the documentation at https://nodejs.org/api/_
 
 To install a package, you should check its official documentation but generically they can be installed as follows:
 
-```$ npm i pkg-name```
-_or_
-```$ npm install pkg-name```
-
-(the latest version of the pkg is installed)
+```$ npm i pkg-name``` _or_ ```$ npm install pkg-name``` (the latest version of the pkg is installed)
 
 **_or_**
 
-```$ npm install pkg-name@version```
-
-(the chosen version of the pkg is installed)
+```$ npm install pkg-name@version``` (the chosen version of the pkg is installed)
 
 
 _* Replace ```pkg-name``` with the name of the package and ```version``` by the version number you want to install (ex: 1.0.0)._
@@ -92,11 +86,7 @@ _* Replace ```pkg-name``` with the name of the package and ```version``` by the 
 
 # 5a. Installing a package for development use only
 
-```$ npm i pkg-name --save-dev```
-
-_or_
-
-```$ npm install pkg-name --save-dev```
+```$ npm i pkg-name --save-dev``` _or_ ```$ npm install pkg-name --save-dev```
 
 _* Replace ```pkg-name``` with the name of the package._
 
@@ -111,28 +101,21 @@ In the ```package.json``` file you will see all the dependencies (libraries) tha
 
 If you delete or you don't have the ```node_modules``` folder but you **do** have a ```package.json``` file with dependencies, you can install all the packages that are declared in that ```package.json``` file as follows:
 
-```$ npm i```
+```$ npm i``` _or_ ```$ npm install```
 
-_or_
+---
 
-```$ npm install```
+#### Note: 
 
-(the version that is installed is the one declared in the ```package.json``` file)
+The version that is installed is the one declared in the ```package.json``` file)
 
+---
 
 # 5c. Uninstalling packages
 
 To uninstall a package, check its official documentation but generically uninstall as follows:
 
-```$ npm uninstall pkg-name```
-
-_or_
-
-```$ npm remove pkg-name```
-
-_or_
-
-```$ npm r pkg-name```
+```$ npm uninstall pkg-name``` _or_ ```$ npm remove pkg-name``` _or_ ```$ npm r pkg-name```
 
 _* Replace ```pkg-name``` with the name of the package._
 
